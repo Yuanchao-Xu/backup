@@ -68,6 +68,10 @@ getPreciBar <- function(dataset, method, cell = 'mean', output = 'data', name = 
                         plotRange = TRUE, member = NULL, omitNA = TRUE, TS = NULL, info = FALSE,
                         ...) {
   
+  
+  ### cell is not used in the following, changed in the new version.
+  
+  
   if (is.null(TS)) {
     #check input dataset
     checkHyfo(dataset)
